@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+    
+}
+.body{
+    background-color: #0000;
+    color: #fafafa; 
+    background-image:  assets\Title-Image.png;
+    background-size: cover;
+    padding: 10px 10%;
+    
+}
+.logo{
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
+    justify-self: space-between;
+}
+.symbol{
+    width: 150px;
+    height: 50px;
+    align-items: center;
+
+}
+
+    
+
+
+
+
+
