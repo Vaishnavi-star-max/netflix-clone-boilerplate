@@ -1,35 +1,101 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: Poppins, sans-serif;
-    box-sizing: border-box;
-    
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
-.body{
-    background-color: #0000;
-    color: #fafafa; 
-    background-image:  assets\Title-Image.png;
+body{
+    background: #000;
+    color:#fff;
+}
+.header{
+    width: 100%;
+    height: 90%;
+    background-image:url("assets/Title-Image.png");
     background-size: cover;
-    padding: 10px 10%;
-    
+    background-position: center;
+
+}
+nav{
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+
 }
 .logo{
     width: 150px;
-    height: 50px;
-    align-items: center;
     cursor: pointer;
-    justify-self: space-between;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    padding: 5px ;
+    color: #fff;
+    background-color: transparent;  
+    cursor: pointer;
+}
+.images{
+   padding-left: 900px;
+   justify-content: space-between;
+}
+.header-content{
+  padding-left: 20px;
+  padding-top: 80px;
+
 }
 .symbol{
-    width: 150px;
-    height: 50px;
-    align-items: center;
+    width: 40px; 
+    padding-left: 20px;  
+}
+h1{
+    display: inline-flex;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    padding-left: 20px;
+    font-size: 70px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 
 }
 
-    
+.section1{
+    padding-left:20px ;
+    padding-top: 90px;
 
-
+}
+.arrow img{
+    width: 13px;
+  
+}
+h3{ 
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section2{
+    padding-left: 20px;
+    padding-top: 60px;
+}
+h4{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section3{
+    padding-left: 20px;
+    padding-top: 60px;
+}
+h5{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section4{
+    padding-left: 20px;
+    padding-top: 60px;
+}
+h6{ 
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 
